@@ -13,12 +13,12 @@ public class QuickStart {
 		// a list of students' source code files located in the prepared
 		// directory.
 		Collection<File> files = FileUtils.listFiles(new File(
-				"C:\\temp\\moss-dir"), new String[] { "java" }, true);
+				"src/main/resources/files"), new String[] { "java" }, true);
 
 		// a list of base files that was given to the students for this
 		// assignment.
 		Collection<File> baseFiles = FileUtils.listFiles(new File(
-				"C:\\temp\\moss-base-dir"), new String[] { "java" }, true);
+				"src/main/resources/Base"), new String[] { "java" }, true);
 
 		// get a new socket client to communicate with the MOSS server
 		// and set its parameters.
